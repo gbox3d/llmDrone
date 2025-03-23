@@ -1,0 +1,9 @@
+# for windows only
+transformers
+python-dotenv
+accelerate
+scipy
+pyaudio
+numpy
+CodingDrone
+keyboard
