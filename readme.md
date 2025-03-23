@@ -23,6 +23,9 @@ pyinstaller --name=VCon --console --onedir --icon=icon.png app.py
 ```
 위와 같이 하면 dist 폴더에 exe 파일 생성됨  
 
+![VCon 캡처 화면](vcon_capture.png)
+
+
 
 ## Reference
 - [Coding drone -byrobot Documents](https://dev.byrobot.co.kr/documents/kr/products/coding_drone/library/python/coding_drone/01_intro)
