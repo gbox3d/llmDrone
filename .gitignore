@@ -17,3 +17,6 @@ temp/
 .vscode/
 model_cache/
 voice_settings.json
+build/
+dist/
+*.spec
