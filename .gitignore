@@ -20,3 +20,5 @@ voice_settings.json
 build/
 dist/
 *.spec
+
+prompt.txt
