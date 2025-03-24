@@ -98,7 +98,7 @@ class VoiceCommandManager:
         voice_status_label = ttk.Label(frame, textvariable=self.voice_status_var, font=('Arial', 10, 'italic'))
         voice_status_label.grid(row=3, column=0, columnspan=3, sticky=tk.W, padx=5, pady=5)
         
-        self.voice_record_button = ttk.Button(frame, text="음성 녹음 시작", command=self.toggle_voice_recording, state=tk.DISABLED)
+        self.voice_record_button = ttk.Button(frame, text="음성 명령  시작", command=self.toggle_voice_recording, state=tk.DISABLED)
         self.voice_record_button.grid(row=4, column=0, padx=5, pady=5)
         
         # 음성 인식 결과 표시 레이블
