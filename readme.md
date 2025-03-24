@@ -1,7 +1,7 @@
 ## Install python library
 ```bash
 pip install -r requirements.txt
-pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu126
 ```
 
 ## model downloader usage
@@ -11,7 +11,7 @@ pip install torch torchvision torchaudio --index-url https://download.pytorch.or
 python hf_model_downloader.py --model_id google/gemma-3-1b-it --domain causal_lm
 
 # Download Whisper (ASR)
-python hf_model_downloader.py --model_id openai/whisper-base --domain speech_recognition
+python hf_model_downloader.py --model_id openai/whisper-large-v3-turbo --domain speech_recognition
 
 ```
 
