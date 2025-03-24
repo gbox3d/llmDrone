@@ -22,8 +22,8 @@ from drone_control_manager import DroneControlManager
 class DroneControlApp:
     def __init__(self, root):
         self.root = root
-        self.root.title("드론 제어 애플리케이션")
-        self.root.geometry("800x700")  # 높이를 더 크게 조정
+        self.root.title("LLM Drone Control App")
+        self.root.geometry("800x720")  # 높이를 더 크게 조정
         self.root.resizable(True, True)
         
         # 스타일 설정
@@ -92,7 +92,7 @@ class DroneControlApp:
         log_frame.pack(side=tk.RIGHT, fill=tk.BOTH, expand=True, padx=5, pady=5)
         
         # 로그 레이블
-        log_label = ttk.Label(log_frame, text="드론 통신 로그")
+        log_label = ttk.Label(log_frame, text="System Log")
         log_label.pack(anchor=tk.W, padx=5, pady=2)
         
         # 로그 텍스트 위젯 생성
